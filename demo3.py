@@ -15,9 +15,14 @@ class college:
         self.college4 = college
         print("my college is ",self.college4)
 
+    def college5(self,college):
+        self.college = college
+        print("my college is ",self.college)
+
 
 c1 = college()  
 c1.college1("ABC College")
 c1.college2("XYZ College")
 c1.college3("PQR College")
 c1.college4("LMN College")
+c1.college5("DEF College")

@@ -19,7 +19,16 @@ class cal:
         self.b = b
         print(self.a / self.b)
 
-        
+    def exp(self,a,b):
+        self.a = a
+        self.b = b
+        print(self.a ** self.b)
+
+    def mod(self,a,b):
+        self.a = a
+        self.b = b
+        print(self.a % self.b)
+
 
 
 obj = cal()

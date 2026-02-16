@@ -11,7 +11,14 @@ class std:
         self.branch = branch
         print("my branch is ",self.branch)
 
+    def age(self,age):
+        self.age = age
+        print("my age is ",self.age)
+
+    
+
 s1 = std()
 s1.name("Alice")
 s1.course("Computer Science")
 s1.branch("Software Development")
+s1.age(20)
