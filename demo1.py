@@ -15,6 +15,9 @@ class std:
         self.age = age
         print("my age is ",self.age)
 
+    def city(self,city):
+        self.city = city
+        print("my city is ",self.city)
     
 
 s1 = std()

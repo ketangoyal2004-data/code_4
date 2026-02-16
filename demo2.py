@@ -29,9 +29,17 @@ class cal:
         self.b = b
         print(self.a % self.b)
 
+    def floor(self,a,b):
+        self.a = a
+        self.b = b
+        print(self.a // self.b)
+
 
 
 obj = cal()
 obj.add(10,5)   
 obj.sub(10,5)
 obj.mul(10,5)
+obj.div(10,5)
+obj.exp(10,5)
+obj.mod(10,5)
