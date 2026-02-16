@@ -9,6 +9,13 @@ class cal:
         self.b = b
         print("The diff is",self.a - self.b)
 
+    def mul(self,a,b):
+        self.a = a
+        self.b = b
+        print(self.a * self.b)
+
+
 obj = cal()
 obj.add(10,5)   
 obj.sub(10,5)
+obj.mul(10,5)
