@@ -14,6 +14,13 @@ class cal:
         self.b = b
         print(self.a * self.b)
 
+    def div(self,a,b):
+        self.a = a
+        self.b = b
+        print(self.a / self.b)
+
+        
+
 
 obj = cal()
 obj.add(10,5)   
